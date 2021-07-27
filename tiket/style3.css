@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif;
+}
+
+
+.paralex {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("audience-945449.jpg")
+    repeat fixed 100%;
+    background-size: cover;
+    
+}
+
+.paralex-inner{
+    padding-top: 45%;
+    padding-bottom:20% ;
+}
+.teks {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 60vh;
+    color: white;
+    
+}
+
+.teks1{
+   display: flex;
+   color: white;
+   justify-content: center;
+   position: relative;
+   bottom: 60vh;
+   
+
+}
+
+button{
+   border: none;
+}
+
+.buy{
+   display: flex;
+   justify-content: center;
+   color: white;
+}
+
+#icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.icon1{
+    width:100%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.card {
+    display: flex;
+    align-items: center;
+    min-height: 180px;
+    position: relative;
+    top: 5rem;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgba(206, 203, 203, 0.4);
+    backdrop-filter: blur(8px);
+    padding: 0%;
+
+    
+}
+
+
+.container {
+    position: relative;
+    top: 50px;
+    right: 127px;
+    display: block;
+
+}

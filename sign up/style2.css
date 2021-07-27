@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border-radius: 0%;
+}
+
+body{
+    background: url("audience-945449.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding-top: 15%;
+    font-family: 'Heebo', sans-serif;
+}
+
+
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    min-height: 35vh;
+    grid-template-columns: repeat(2, 1fr);
+    top: -126px;
+    width: 11rem;
+    border-radius: 10px;
+    padding: 0rem 4rem;
+    box-shadow: 0 20px 20px rgb(0 0 0 / 20%), 0px 0px 50px rgb(0 0 0 / 20%);
+    background-color: white;
+}
+.teks {
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    top: 10px;
+    left: 50px;
+}
+
+.form {
+    width: 100%;
+    padding: 0,5rem 1rem;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-color: rgba(230, 230, 230, 0.6);
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+}
+#nama.form {
+    width: 100%;
+    padding: 0,5rem 1rem;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.6);
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+}
+.form:hover{
+     background-color: rgba(0, 0, 0, 0.1);
+}
+
+.form:focus {
+    background: #ffff;
+    border: 2px solid rgba(30, 85, 250, 0.47);
+}
+
+.button {
+    width: 48%;
+    padding:5px 1px ;
+    font-size: 1.1rem;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    color: #ffff;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    left: 48px;
+    cursor: pointer;
+    bottom: 10px; 
+    color: rgb(65, 65, 65);
+}
